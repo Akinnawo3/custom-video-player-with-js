@@ -1,0 +1,41 @@
+
+body{
+text-align: center;
+}
+
+ header section footer aside nav article hgroup{
+    display: block;
+}
+#bigwrapper{
+background: red;
+    width: 700px;
+    margin: 10px auto;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+#defaultbar {
+    width: 600px;
+    height: 15px;
+    border: 1px solid black;
+    background: yellow;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    height:  20px;
+    padding: 4px;
+}
+
+#playbutton {
+    float: left;
+    width: 60px;
+    height: 20px;
+}
+#progressbar{
+    background: green;
+    position: absolute;
+    width: 0px;
+    height: 20px;
+    
+}
